@@ -5,3 +5,7 @@ int main() {
 
 	return 0;
 }
+
+void test_queue() {
+
+}
