@@ -9,3 +9,10 @@ typedef struct _node {
 	int capacity;
 	int size;
 } Queue;
+
+void init_queue(Queue* q);
+void push(Queue* q, element value);
+void pop(Queue* q);
+bool is_full(Queue* q);
+bool is_empty(Queue* q);
+int size(Queue* q);
